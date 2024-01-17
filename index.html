@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+   
+    <style>
+        *{
+            margin: 5px;
+            padding: 0px;
+            background-color: rgb(10, 10, 10);
+        }
+        input{
+            margin-top: 10px;
+            padding-top: 10px;
+           border-top: 0px;
+            border-right: 0px;
+           border-left: 0px;
+           text-transform: capitalize;
+           width: 25%;
+           height: 25px;
+           outline: 1px;
+           font-size: medium;
+           color: azure;
+        }
+        input:hover{
+            border-color: blue;
+        }
+        textarea{
+            
+            border-top: 1px;
+            font-size: medium;
+            border-right: 1px;
+            border-left: 1px;
+            width: 300px;
+            height: 100px;
+            outline: 1px;
+            color: azure;
+        }
+        #c{
+           border-bottom: 0px;}
+         textarea:hover{
+            border-color: blue;
+            
+         }
+         #a{
+            font-family: Arial, Helvetica, sans-serif;
+         border: 0;
+            background-color:aqua;
+            border-radius: 10px;
+            padding: 10px;
+         }
+         #b{
+            font-family: Arial, Helvetica, sans-serif;
+            border: 0;
+             border-radius:10px ;
+             background-color: rgba(243, 239, 5, 0.644);
+             padding: 10px;
+         }
+         h1{
+            color: azure;
+         }
+         p{
+            color: blueviolet;
+         }
+    </style>
+</head>
+<body>
+    <center><h1> WELCOME </h1>
+        <p>Please fill this form</p>
+    
+       <input placeholder="Name" type="text"><br><br>
+       <input placeholder="Email" type="email"><br><br>
+       <input placeholder="Type password" type="password"><br><br>
+       <input placeholder="Contact Number" type="tel"><br>
+        <input id="c" type="text" placeholder="Message"><br>
+       <textarea></textarea><br>
+
+       <button id="a">Submit</button>
+       <button id="b">Reset</button>
+    </center>
+    
+</body>
+</html>
